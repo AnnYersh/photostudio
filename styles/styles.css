@@ -308,7 +308,7 @@ h4 {
 .cameras__icons {
     position: absolute;
     bottom: 45px;
-    right: 350px;
+    right: 40px;
 }
 
 .cameras__box-text {
@@ -579,4 +579,16 @@ h4 {
 .footer__basement-nets {
     display: flex;
     gap: 20px;
+}
+
+@media (max-width:1200px) {
+    .specialization {
+        padding-top: 50px;
+    }
+    .specialization__item-content {
+        align-items: center;
+    }
+    .specialization__item-text {
+        text-align: center;
+    }
 }
