@@ -240,6 +240,7 @@ h4 {
     height: 600px;
     display: flex;
     align-items: end;
+    justify-content: end;
 }
 
 .sunset__box,
@@ -268,6 +269,7 @@ h4 {
     line-height: 20px; /* 142.857% */
     max-width: 300px;
     width: 100%;
+    margin-right: 90px;
 }
 
 .sunset__icons,
@@ -277,6 +279,7 @@ h4 {
     display: flex;
     gap: 16px;
     justify-content: end;
+    margin-right: 40px;
 }
 
 .cameras {
@@ -308,7 +311,7 @@ h4 {
 .cameras__icons {
     position: absolute;
     bottom: 45px;
-    right: 40px;
+    right: 0px;
 }
 
 .cameras__box-text {
@@ -361,6 +364,7 @@ h4 {
     height: 600px;
     display: flex;
     align-items: end; 
+    justify-content: end;
 }
 
 .leafs__text-text {
@@ -395,8 +399,10 @@ h4 {
 
 .clients__list {
     display: flex;
-    gap: 110px;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .clients__link img:hover {
@@ -413,6 +419,8 @@ h4 {
     height: 600px;
     display: flex;
     align-items: end;
+    justify-content: end;
+
 }
 
 .help__box {
